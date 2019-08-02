@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="loginstyle.css">
     <title>WHATEVER CLICK!</title>
 </head>
+
 <body>
     <form action="" method="POST" class="box">
-        <div id="login_logo"><h1>WHATEVER CLICK!</h1></div>
+        <div id="login_logo">
+            <h1>WHATEVER CLICK!</h1>
+        </div>
         <input type="text" name="username" placeholder="username">
         <input type="password" name="password" placeholder="password">
         <input type="submit" value="login">
     </form>
-
+    <script>
+        var elementToChange = document.getElementsByTagName("body")[0];
+        elementToChange.style.cursor = "url('./img/League of Legends.ico'), auto";
+    </script>
 
 </body>
 
