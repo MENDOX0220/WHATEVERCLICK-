@@ -1,0 +1,31 @@
+.main {
+    width: 55vw;
+    height: 95vh;
+    margin: 2.5vh;
+    background-color: black;
+}   
+.item{
+    width: 45vw;
+    height: 95vh;
+    margin: 2.5vh 0;
+    margin-right: 2.5vh;
+    background-color: black;
+    text-align: center;
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+.upgrade{
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.cubt, .aubt, .ccoin, .rank{
+    border-radius: 20%;
+    width: 90px;
+    height: 5vh;
+    outline-style: none;
+    background-color: brown;
+}
